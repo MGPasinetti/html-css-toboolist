@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    /* background-color: lightgrey; */
+}
+
+/* header */
+.logo {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.logo > img {
+    float: inline-start;
+}
+
+.nome_logo {
+    line-height: 50px;
+    font-size: 40px;
+    margin: 0 10px;
+}
+
