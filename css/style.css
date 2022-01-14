@@ -23,6 +23,7 @@ body {
     line-height: 50px;
     font-size: 40px;
     margin: 0 10px;
+    vertical-align: middle;
 }
 
 /* main */
@@ -33,14 +34,30 @@ main {
 }
 
 /* nav buttons */
-nav {
+.header_buttons {
     background-color: white;
-    height: 50px;
-    padding: 10px 0 5px 40px;
+    width: 100%;
+    padding: 10px 0 7px 40px;
     border-radius: 5px 5px 0 0;
 }
 
-.buttons {
-    display: inline;
-    vertical-align: middle;
+
+.button_1, .button_2 {
+    font-size: 12px;
+    padding: 8px;
+    line-height: 12px;
+    border-radius: 5px;
 }
+
+.button_1 {
+    background-color: #47ADF1;
+    color: white;
+    border: none;
+}
+
+.button_2 {
+    background-color: white;
+    color: lightgrey;
+    border: solid 1px;
+}
+
