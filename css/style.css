@@ -33,3 +33,14 @@ main {
 }
 
 /* nav buttons */
+nav {
+    background-color: white;
+    height: 50px;
+    padding: 10px 0 5px 40px;
+    border-radius: 5px 5px 0 0;
+}
+
+.buttons {
+    display: inline;
+    vertical-align: middle;
+}
