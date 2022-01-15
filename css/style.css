@@ -63,7 +63,7 @@ main {
     border: solid 1px;
 }
 
-/* New Task section */
+/* section */
 .sections_container {
     background-color: white;
     width: 100%;
@@ -130,6 +130,14 @@ main {
 
 .orange {
     background-color: #F29E33;
+}
+
+.pink {
+    background-color: #D863A1;
+}
+
+.lightgreen {
+    background-color: #B0C926;
 }
 
 
