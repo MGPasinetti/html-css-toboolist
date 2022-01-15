@@ -73,12 +73,17 @@ main {
     border-radius: 0 0 5px 5px;
 }
 
+.list_item {
+    margin-bottom: 25px;
+}
+
 .bottom_arrow {
     font-size: 10px;
 }
 
 .section_title {
     display: inline;
+    font-weight: bolder;
 }
 
 .checklist {
@@ -91,7 +96,7 @@ main {
     border: solid #79C9B6 1px;
     font-size: 10px;
     padding: 2px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .label {
@@ -102,6 +107,32 @@ main {
     padding: 5px 10px;
     border-radius: 10px;
 }
+
+.section {
+    margin-bottom: 20px;
+}
+
+.violet {
+    background-color: #9C72E4;
+}
+
+.crossmark {
+    color: #d33931;
+    border: solid #d33931 1px;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: #64C0A9;
+}
+
+.orange {
+    background-color: #F29E33;
+}
+
+
 
 
 
